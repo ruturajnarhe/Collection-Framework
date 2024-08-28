@@ -1,4 +1,4 @@
-package Demo;
+package CollectionDemo;
 
 public class Demo {
 
