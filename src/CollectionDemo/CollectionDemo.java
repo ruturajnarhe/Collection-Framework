@@ -14,8 +14,9 @@ public class CollectionDemo {
 		System.out.println(al.isEmpty());  // return boolean type
 //		al.clear();
 		
+		
 		al.remove(0);  // remove element at index position
-//		System.out.println(al);
+		System.out.println(al);
 		
 		ArrayList al2 = new ArrayList();
 		al2.add("aaa");  // return boolean type
@@ -24,7 +25,7 @@ public class CollectionDemo {
 		System.out.println(al2);
 		
 		al.addAll(al2);  // return boolean type
-//		System.out.println(al);
+		System.out.println(al);
 		
 		al2.remove("aaa"); // remove obj element
 		System.out.println(al2);
