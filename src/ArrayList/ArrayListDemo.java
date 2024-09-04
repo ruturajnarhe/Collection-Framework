@@ -22,7 +22,7 @@ public class ArrayListDemo {
 		
 		
 //		ArrayList internally uses a dynamic array to store the elements.
-//		Time complexity of arrayList at add time O(1) and resized the ArrayList then time complexity is O(n);
+//		Time complexity of ArrayList at add time O(1) and resized the ArrayList then time complexity is O(n);
 		al1.add(0, 10);
 		al1.add(1, "ruturaj");
 		al1.add(2, 'c');
