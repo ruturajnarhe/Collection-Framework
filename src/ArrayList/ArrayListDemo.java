@@ -9,7 +9,7 @@ public class ArrayListDemo {
 		// TODO Auto-generated method stub
 		
 //		Initial capacity of ArrayList is 10.
-//		ArrayList current capacity is full then arraylist increases its capacity by 50% of the current size
+//		ArrayList current capacity is full then ArrayList increases its capacity by 50% of the current size
 		ArrayList al1 = new ArrayList();
 		
 
@@ -20,7 +20,9 @@ public class ArrayListDemo {
 //		ArrayList does not follows sorting order
 //		ArrayList are non-syncronized 
 		
-//		Time complexity of arrayList at add time O(1) and resized the arraylist then time complexity is O(n);
+		
+//		ArrayList internally uses a dynamic array to store the elements.
+//		Time complexity of arrayList at add time O(1) and resized the ArrayList then time complexity is O(n);
 		al1.add(0, 10);
 		al1.add(1, "ruturaj");
 		al1.add(2, 'c');
@@ -37,6 +39,8 @@ public class ArrayListDemo {
 		System.out.println(al1.set(4, 70));
 		
 		System.out.println(al1.indexOf(null));
+		
+		System.out.println("---------------------------------");
 		
 		System.out.println(al1);
 		
