@@ -16,6 +16,8 @@ public class VectorDemo {
 		// Vector follows insertion order
 		// Vector does not follows sorting order
 		// Vector are synchronized collection
+
+		// Initial capacity of vector is 10 and if vector is full then capacity increase by double
 		
 		v.add(101);
 		v.add("Ravindra");
