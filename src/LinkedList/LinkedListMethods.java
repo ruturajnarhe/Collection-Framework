@@ -7,7 +7,36 @@ public class LinkedListMethods {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
 		
+		LinkedList ll1 = new LinkedList();
+		
+		
+		// LinkedList contains collection, List, Dequeue methods
+		
+		ll1.add("Ruturaj");
+		ll1.add("Rahul");
+		ll1.add("Ruturaj");
+		ll1.add(null);
+		ll1.add(null);
+		ll1.add(105);
+		ll1.add('R');
+		ll1.add("Avishakr");
+		
+		
+		ll1.addFirst("Ravindra");
+		ll1.addLast("Chetan");
+		
+		
+		System.out.println(ll1);
+		
+		System.out.println(ll1.getFirst());
+		System.out.println(ll1.getLast());
+		
+		System.out.println(ll1.removeFirst());
+		System.out.println(ll1.removeLast());
+		
+		System.out.println(ll1);
 	}
 
 }
@@ -49,26 +78,26 @@ interface List extends Collection {
 //	etc...
 }
 
-abstract class LinkedList implements List, Deque {
-	public void addFirst(Object obj) {
+// abstract class LinkedList implements List, Deque {
+// 	public void addFirst(Object obj) {
 		
-	}
-	public void addLast(Object obj) {
+// 	}
+// 	public void addLast(Object obj) {
 		
-	}
+// 	}
 	
-	public Object getFirst() {
+// 	public Object getFirst() {
 	
-	}
-	public Object getLast() {
+// 	}
+// 	public Object getLast() {
 		
-	}
+// 	}
 	
-	public Object removeFirst() {
+// 	public Object removeFirst() {
 		
-	}
-	public Object removeLast() {
+// 	}
+// 	public Object removeLast() {
 		
-	}
+// 	}
 	
-}
+// }
